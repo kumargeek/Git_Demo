@@ -37,6 +37,9 @@ git add   -> added to staging area (snapshot of code is added)
 name you want to be ignored. Ex: secret.md)
 git add . : to send all files current snapshot to staging area(all at once).
 git status -> difference b/w staging and workng directory
+git commit -m : A snapshot of changes made to the repository. Each commit has an unique ID & a message describing the changes.
+Ex : git commit -m "commit message"
+git log : List of commits
 # how git stores the changes 
 
 git add filename
