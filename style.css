@@ -1,0 +1,57 @@
+/* style.css - Random fun styles */
+
+body {
+  background: linear-gradient(135deg, #f9f871, #f0a1ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #4b0082;
+  font-size: 3rem;
+  margin-top: 40px;
+  text-shadow: 2px 2px #ffffff88;
+}
+
+p {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  background: #ffffffcc;
+  border-left: 5px solid #4b0082;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 24px;
+  background-color: #ff4081;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #e91e63;
+  transform: scale(1.05);
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff5722;
+  text-decoration: underline;
+}
